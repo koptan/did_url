@@ -12,8 +12,8 @@ include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 readme = "README.md"
 
 [dependencies]
-form_urlencoded = "1.0" 
-serde = { version = "1.0", default-features = false, features = ["alloc", "derive"], optional = true }
+form_urlencoded = "1.2.0" 
+serde = { version = "1.0", default-features = false, features = [ "derive"], optional = true }
 
 [dev-dependencies]
 proptest = { version = "0.10.1" }
